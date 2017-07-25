@@ -1,0 +1,57 @@
+<!--<resources>-->
+
+  <!--&lt;!&ndash; Base application theme. &ndash;&gt;-->
+    <!--<style name="AppTheme" parent="android:Theme.Holo.Light">-->
+        <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+
+        <!--<item name="colorPrimary">@color/orange</item>-->
+        <!--<item name="colorPrimaryDark">@color/orange2</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+        <!--<item name="android:textColor">@color/pale_orange</item>-->
+        <!--&lt;!&ndash;<item name="android:icon">@color/white</item>&ndash;&gt;-->
+
+        <!--<item name="android:actionBarStyle">@style/actionBarStyle</item>-->
+    <!--</style>-->
+
+    <!--<style name="center" parent="@android:style/Widget.Holo.ActionBar.TabView">-->
+        <!--<item name="android:gravity">center</item>-->
+    <!--</style>-->
+
+    <!--<style name="actionBarStyle" parent="android:Widget.Holo.ActionBar.Solid">-->
+        <!--<item name="android:background">@color/orange</item>-->
+        <!--<item name="android:backgroundStacked">@android:color/white</item>-->
+        <!--<item name="android:titleTextStyle">@style/titleTextStyles</item>-->
+    <!--</style>-->
+
+    <!--<style name="titleTextStyles" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">-->
+        <!--<item name="android:textStyle">bold|italic</item>-->
+        <!--<item name="android:textColor">@color/pale_orange</item>-->
+    <!--</style>-->
+
+    <!--<style name="switchStyles" parent="Theme.AppCompat.Light.NoActionBar">-->
+        <!--<item name="colorControlActivated">@color/orange</item>-->
+        <!--<item name="colorSwitchThumbNormal">@color/orange2</item>-->
+        <!--<item name="android:colorForeground">@color/white</item>-->
+    <!--</style>-->
+
+
+<!--</resources>-->
+
+<resources>
+
+    <style name ="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!--switchのstyle設定-->
+
+
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="colorSwitchThumbNormal">@color/colorAccent</item>
+        <item name="android:colorForeground">@color/colorAccent</item>
+
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorPrimaryDark">@color/orange2</item>
+        <item name="android:textColorPrimary">@color/pale_orange</item>
+        <item name="colorAccent">@color/orange</item>
+    </style>
+
+
+</resources>
